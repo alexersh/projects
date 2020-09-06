@@ -1,0 +1,46 @@
+body {
+  background-image: url(images/fireworks.jpg);
+  background-size: 100%;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: black 2px 2px 3px;
+}
+
+#digitalClock {
+  text-align: center;
+  color:rgba(255, 46, 57, 0.966);
+}
+
+#digitalClock > div {
+  height: 15%;
+  width: 15%;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 15px;
+  background: rgba(46, 46, 46, 0.747);
+  display: inline-block;
+}
+
+#digitalClock div > span {
+  font-size: 250%;
+  font-style: ;
+  height: 100%;
+  width: 65%;
+  padding: 15px;
+  border-radius: 8px;
+  background: #4e4e4eef;
+  display: inline-block;
+}
+
+h1 {
+  margin: 10% auto 0%;
+  padding: 0.5em 0em;
+  width: 68%;
+  border-radius: 100px;
+  background-color: rgba(46, 46, 46, 0.747);
+  text-transform: capitalize;
+  font-size: 60px;
+}
+
+.smallText {
+  font-size: 150%;
+}
