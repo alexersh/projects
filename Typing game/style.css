@@ -1,0 +1,46 @@
+body {
+  color: #fff ;
+  background-color: #343a40;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 95px;
+}
+
+h3, h2 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+#seconds {
+  color: green;
+}
+
+#game {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+#game > div > input {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 35px;
+  border-radius: 10px;
+  height: 60px;
+  width: 700px;
+  padding-left: 30px;
+  text-align: left;
+}
+
+#instructions {
+  width: 500px;
+  padding: 1px 30px 1px 30px;
+  font-size: 17px;
+  border-radius: 15px;
+  background-color: #6c757d;
+}
