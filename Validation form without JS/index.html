@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <title>Validation form</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+  </head>
+  <body>
+    
+    <form>
+    <div id="registration" class="align">
+      <h2>Registration</h2>
+      <div id="username" class="form__field">
+        <input type="text" class="form__input" required placeholder ="Enter username" autocomplete="on" minlength="3">
+        <span class="icon"></span>
+        <p>Username must be three or more characters</p>
+      </div>
+      <div id="email" class="form__field">
+        <input type="email" class="form__input" required placeholder ="Enter email" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autocomplete="on">
+        <span class="icon"></span>
+        <p>Email example: addres@gmail.com</p>
+      </div>
+      <div id="password" class="form__field">
+        <input type="password" class="form__input" required placeholder ="Enter password" minlength="6" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}">
+        <span class="icon"></span>
+        <p>Must be six or more characters and at least one capital, lowercase and digit</p>
+      </div>
+      <input type="submit" id="signUpBtn" value="Sign Up" >
+    </div>
+  </form> 
+  </body>
+</html>
